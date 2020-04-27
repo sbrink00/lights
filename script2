@@ -1,0 +1,27 @@
+push
+move
+20 450 0
+push
+rotate
+x 10
+rotate
+y -10
+rotate
+z 2
+box
+0 0 0 20 150 100
+pop
+push
+rotate
+x 20
+rotate
+z -10
+torus
+100 -100 0 10 50
+pop
+pop
+push
+sphere
+50 236 -10 25
+save
+pic101.png
